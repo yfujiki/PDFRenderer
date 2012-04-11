@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		800F73FA15358A0C006FBADA /* sample_0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 800F73F915358A0C006FBADA /* sample_0.pdf */; };
+		8035F9C21523ACC700D6EBFB /* PDFRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8035F9C11523ACC700D6EBFB /* PDFRenderer.m */; };
+		8035F9C51523B39B00D6EBFB /* apple-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8035F9C41523B39B00D6EBFB /* apple-icon.png */; };
+		80720A5315234F5800B82E73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80720A5215234F5800B82E73 /* UIKit.framework */; };
+		80720A5515234F5800B82E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80720A5415234F5800B82E73 /* Foundation.framework */; };
+		80720A5715234F5800B82E73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80720A5615234F5800B82E73 /* CoreGraphics.framework */; };
+		80720A5D15234F5800B82E73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80720A5B15234F5800B82E73 /* InfoPlist.strings */; };
+		80720A5F15234F5800B82E73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80720A5E15234F5800B82E73 /* main.m */; };
+		80720A6315234F5800B82E73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80720A6215234F5800B82E73 /* AppDelegate.m */; };
+		80720A6615234F5800B82E73 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80720A6415234F5800B82E73 /* MainStoryboard.storyboard */; };
+		80720A6915234F5800B82E73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80720A6815234F5800B82E73 /* ViewController.m */; };
+		80720A7115234FDF00B82E73 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80720A7015234FDF00B82E73 /* PDFViewController.m */; };
+		80720A731523500400B82E73 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80720A721523500400B82E73 /* CoreText.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		800F73F915358A0C006FBADA /* sample_0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample_0.pdf; sourceTree = "<group>"; };
+		8035F9C01523ACC700D6EBFB /* PDFRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFRenderer.h; sourceTree = "<group>"; };
+		8035F9C11523ACC700D6EBFB /* PDFRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFRenderer.m; sourceTree = "<group>"; };
+		8035F9C41523B39B00D6EBFB /* apple-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apple-icon.png"; path = "../../../../images/apple-icon.png"; sourceTree = "<group>"; };
+		80720A4E15234F5800B82E73 /* PDFRenderer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFRenderer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80720A5215234F5800B82E73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80720A5415234F5800B82E73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80720A5615234F5800B82E73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80720A5A15234F5800B82E73 /* PDFRenderer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PDFRenderer-Info.plist"; sourceTree = "<group>"; };
+		80720A5C15234F5800B82E73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80720A5E15234F5800B82E73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80720A6015234F5800B82E73 /* PDFRenderer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PDFRenderer-Prefix.pch"; sourceTree = "<group>"; };
+		80720A6115234F5800B82E73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80720A6215234F5800B82E73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80720A6515234F5800B82E73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		80720A6715234F5800B82E73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80720A6815234F5800B82E73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80720A6F15234FDF00B82E73 /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		80720A7015234FDF00B82E73 /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
+		80720A721523500400B82E73 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80720A4B15234F5800B82E73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80720A731523500400B82E73 /* CoreText.framework in Frameworks */,
+				80720A5315234F5800B82E73 /* UIKit.framework in Frameworks */,
+				80720A5515234F5800B82E73 /* Foundation.framework in Frameworks */,
+				80720A5715234F5800B82E73 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80720A4315234F5800B82E73 = {
+			isa = PBXGroup;
+			children = (
+				80720A721523500400B82E73 /* CoreText.framework */,
+				80720A5815234F5800B82E73 /* PDFRenderer */,
+				80720A5115234F5800B82E73 /* Frameworks */,
+				80720A4F15234F5800B82E73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80720A4F15234F5800B82E73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80720A4E15234F5800B82E73 /* PDFRenderer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80720A5115234F5800B82E73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80720A5215234F5800B82E73 /* UIKit.framework */,
+				80720A5415234F5800B82E73 /* Foundation.framework */,
+				80720A5615234F5800B82E73 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80720A5815234F5800B82E73 /* PDFRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				800F73F915358A0C006FBADA /* sample_0.pdf */,
+				8035F9C41523B39B00D6EBFB /* apple-icon.png */,
+				80720A6115234F5800B82E73 /* AppDelegate.h */,
+				80720A6215234F5800B82E73 /* AppDelegate.m */,
+				80720A6415234F5800B82E73 /* MainStoryboard.storyboard */,
+				80720A6715234F5800B82E73 /* ViewController.h */,
+				80720A6815234F5800B82E73 /* ViewController.m */,
+				80720A5915234F5800B82E73 /* Supporting Files */,
+				80720A6F15234FDF00B82E73 /* PDFViewController.h */,
+				80720A7015234FDF00B82E73 /* PDFViewController.m */,
+				8035F9C01523ACC700D6EBFB /* PDFRenderer.h */,
+				8035F9C11523ACC700D6EBFB /* PDFRenderer.m */,
+			);
+			path = PDFRenderer;
+			sourceTree = "<group>";
+		};
+		80720A5915234F5800B82E73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80720A5A15234F5800B82E73 /* PDFRenderer-Info.plist */,
+				80720A5B15234F5800B82E73 /* InfoPlist.strings */,
+				80720A5E15234F5800B82E73 /* main.m */,
+				80720A6015234F5800B82E73 /* PDFRenderer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80720A4D15234F5800B82E73 /* PDFRenderer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80720A6C15234F5800B82E73 /* Build configuration list for PBXNativeTarget "PDFRenderer" */;
+			buildPhases = (
+				80720A4A15234F5800B82E73 /* Sources */,
+				80720A4B15234F5800B82E73 /* Frameworks */,
+				80720A4C15234F5800B82E73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFRenderer;
+			productName = PDFRenderer;
+			productReference = 80720A4E15234F5800B82E73 /* PDFRenderer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80720A4515234F5800B82E73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 80720A4815234F5800B82E73 /* Build configuration list for PBXProject "PDFRenderer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80720A4315234F5800B82E73;
+			productRefGroup = 80720A4F15234F5800B82E73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80720A4D15234F5800B82E73 /* PDFRenderer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80720A4C15234F5800B82E73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80720A5D15234F5800B82E73 /* InfoPlist.strings in Resources */,
+				80720A6615234F5800B82E73 /* MainStoryboard.storyboard in Resources */,
+				8035F9C51523B39B00D6EBFB /* apple-icon.png in Resources */,
+				800F73FA15358A0C006FBADA /* sample_0.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80720A4A15234F5800B82E73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80720A5F15234F5800B82E73 /* main.m in Sources */,
+				80720A6315234F5800B82E73 /* AppDelegate.m in Sources */,
+				80720A6915234F5800B82E73 /* ViewController.m in Sources */,
+				80720A7115234FDF00B82E73 /* PDFViewController.m in Sources */,
+				8035F9C21523ACC700D6EBFB /* PDFRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80720A5B15234F5800B82E73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80720A5C15234F5800B82E73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80720A6415234F5800B82E73 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80720A6515234F5800B82E73 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80720A6A15234F5800B82E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80720A6B15234F5800B82E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80720A6D15234F5800B82E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PDFRenderer/PDFRenderer-Prefix.pch";
+				INFOPLIST_FILE = "PDFRenderer/PDFRenderer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80720A6E15234F5800B82E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PDFRenderer/PDFRenderer-Prefix.pch";
+				INFOPLIST_FILE = "PDFRenderer/PDFRenderer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80720A4815234F5800B82E73 /* Build configuration list for PBXProject "PDFRenderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80720A6A15234F5800B82E73 /* Debug */,
+				80720A6B15234F5800B82E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80720A6C15234F5800B82E73 /* Build configuration list for PBXNativeTarget "PDFRenderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80720A6D15234F5800B82E73 /* Debug */,
+				80720A6E15234F5800B82E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80720A4515234F5800B82E73 /* Project object */;
+}
