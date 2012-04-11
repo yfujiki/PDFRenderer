@@ -11,5 +11,7 @@ Followed the post in StackOverflow to edit (overwrite onto) existing PDF on iOS 
 http://stackoverflow.com/questions/1333710/how-to-edit-a-pdf-in-objective-c
 
 
+<img src="https://github.com/yfujiki/PDFRenderer/raw/master/Screenshot.png"/>
+
 If you tap "Create PDF", then it will generate PDF from scratch.
 If you tap "Edit PDF", then it will add contents on top of existing PDF (sample_0.pdf).
