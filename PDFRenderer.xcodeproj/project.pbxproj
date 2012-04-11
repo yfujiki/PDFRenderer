@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		800F73FA15358A0C006FBADA /* sample_0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 800F73F915358A0C006FBADA /* sample_0.pdf */; };
+		800F73FD153598EA006FBADA /* apple-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 800F73FC153598EA006FBADA /* apple-icon.png */; };
 		8035F9C21523ACC700D6EBFB /* PDFRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8035F9C11523ACC700D6EBFB /* PDFRenderer.m */; };
-		8035F9C51523B39B00D6EBFB /* apple-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8035F9C41523B39B00D6EBFB /* apple-icon.png */; };
 		80720A5315234F5800B82E73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80720A5215234F5800B82E73 /* UIKit.framework */; };
 		80720A5515234F5800B82E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80720A5415234F5800B82E73 /* Foundation.framework */; };
 		80720A5715234F5800B82E73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80720A5615234F5800B82E73 /* CoreGraphics.framework */; };
@@ -24,9 +24,9 @@
 
 /* Begin PBXFileReference section */
 		800F73F915358A0C006FBADA /* sample_0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample_0.pdf; sourceTree = "<group>"; };
+		800F73FC153598EA006FBADA /* apple-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-icon.png"; sourceTree = "<group>"; };
 		8035F9C01523ACC700D6EBFB /* PDFRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFRenderer.h; sourceTree = "<group>"; };
 		8035F9C11523ACC700D6EBFB /* PDFRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFRenderer.m; sourceTree = "<group>"; };
-		8035F9C41523B39B00D6EBFB /* apple-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apple-icon.png"; path = "../../../../images/apple-icon.png"; sourceTree = "<group>"; };
 		80720A4E15234F5800B82E73 /* PDFRenderer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFRenderer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80720A5215234F5800B82E73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		80720A5415234F5800B82E73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,8 +91,8 @@
 		80720A5815234F5800B82E73 /* PDFRenderer */ = {
 			isa = PBXGroup;
 			children = (
+				800F73FC153598EA006FBADA /* apple-icon.png */,
 				800F73F915358A0C006FBADA /* sample_0.pdf */,
-				8035F9C41523B39B00D6EBFB /* apple-icon.png */,
 				80720A6115234F5800B82E73 /* AppDelegate.h */,
 				80720A6215234F5800B82E73 /* AppDelegate.m */,
 				80720A6415234F5800B82E73 /* MainStoryboard.storyboard */,
@@ -170,8 +170,8 @@
 			files = (
 				80720A5D15234F5800B82E73 /* InfoPlist.strings in Resources */,
 				80720A6615234F5800B82E73 /* MainStoryboard.storyboard in Resources */,
-				8035F9C51523B39B00D6EBFB /* apple-icon.png in Resources */,
 				800F73FA15358A0C006FBADA /* sample_0.pdf in Resources */,
+				800F73FD153598EA006FBADA /* apple-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
